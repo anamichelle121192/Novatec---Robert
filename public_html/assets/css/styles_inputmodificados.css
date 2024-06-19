@@ -1,0 +1,48 @@
+/* estilos para los input tipo file */
+.input-de-robert{
+    display: none;
+}
+
+.input-de-robert + label{
+    display: flex;
+    flex: 1;
+    /* max-width: 90%; */
+}
+.input-de-robert_name,
+.input-de-robert_button{
+    padding: 5px 10px;
+}
+
+
+.input-de-robert_name{
+    background: #EEE;
+    border: 1px solid #CACACA;
+    flex: 1;
+    border-radius: 4px 0 0 4px;
+}
+.input-de-robert_name span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.input-de-robert_button{
+    background: #5BC0DE url(https://intranet.gnovalty.com/Uploads/ModuloSST/Assets/Img/subir.png) 4px center/20px no-repeat;
+    border: 1px solid #5BC0DE;
+    color: white;
+    white-space: nowrap;
+    border-radius: 0 4px 4px 0;
+    padding-left: 33px;
+    cursor: pointer;
+}
+
+/* estilos para los text-area */
+
+.radios-inspeccion_observaciones{
+    margin-top: 20px;
+}
+
+.mi-label{
+    height: 50px;
+}
