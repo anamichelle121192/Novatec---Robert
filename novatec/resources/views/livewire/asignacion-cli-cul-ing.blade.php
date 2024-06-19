@@ -8,14 +8,15 @@
     </nav> -->
     <!-- BOTONES TIPO CLIENTE -->
     <div class="container botones-principales-cliente">
+        <template>
+
+        </template>
         <div class="row">
             <div class="col-4">
-                <button id="btn-agroexportador" name="btn-agroexportador" type="button" class="btn btn-info">AGRO
-                    EXPORTADOR</button>
+                <button id="btn-agroexportador" name="btn-agroexportador" type="button" class="btn btn-light">AGRO EXPORTADOR</button>
             </div>
             <div class="col-4">
-                <button id="btn-distribuidor" name="btn-distribuidor" type="button"
-                    class="btn btn-light">DISTRIBUIDORs</button>
+                <button id="btn-distribuidor" name="btn-distribuidor" type="button" class="btn btn-light">DISTRIBUIDOR</button>
             </div>
             <div class="col-4">
                 <button id="btn-productor" name="btn-productor" type="button" class="btn btn-light">PRODUCTOR</button>
